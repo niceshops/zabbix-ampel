@@ -1,0 +1,16 @@
+[Unit]
+Description=Service to run zabbix status traffic light
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 {{ ampel_dir }}/ampel.py
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=zabbix_ampel
+Restart=always
+RestartSec=2s
+TimeoutStopSec=30s
+
+[Install]
+WantedBy=multi-user.target
