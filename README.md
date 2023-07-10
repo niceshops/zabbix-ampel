@@ -1,7 +1,7 @@
 # Zabbix Traffic Light
 
 <a href="https://www.cleware-shop.de/USB-MiniTrafficLight">
-<img src="https://github.com/niceshops/zabbix-ampel/blob/main/vendor/ampel.png" alt="Ampel" width="400"/>
+<img src="https://github.com/niceshops/zabbix-ampel/blob/main/vendor/ampel.png" alt="Ampel" width="200"/>
 </a>
 
 ## Setup
